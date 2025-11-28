@@ -1,0 +1,19 @@
+{
+  "proxmox": {
+    "host": "your-proxmox-host",
+    "port": 8006,
+    "username": "root@pam",
+    "password": "your_password",
+    "node": "your-node-name",
+    "realm": "pam"
+  },
+  "discord": {
+    "adminRoles": ["admin_role_id_1", "admin_role_id_2"],
+    "logsChannel": "logs_channel_id"
+  },
+  "vm": {
+    "defaultTemplate": "ubuntu-22.04-template",
+    "storage": "local-lvm",
+    "bridge": "vmbr0"
+  }
+}
